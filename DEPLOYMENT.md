@@ -9,7 +9,7 @@
 You'll need to set these environment variables in Vercel:
 
 ### Server Environment Variables:
-- `MONGO_URI`: `mongodb+srv://dipanshu:hi%402004@cluster0.jupodds.mongodb.net/redgold?retryWrites=true&w=majority`
+- `MONGO_URI`: `dummy`
 - `JWT_SECRET`: `summydummy`
 - `NODE_ENV`: `production`
 
