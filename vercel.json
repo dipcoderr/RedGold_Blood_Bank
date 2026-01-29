@@ -9,13 +9,8 @@
       }
     },
     {
-      "src": "server/app.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "server/**"
-        ]
-      }
+      "src": "server/**/*.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
