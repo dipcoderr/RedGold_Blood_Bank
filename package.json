@@ -1,0 +1,13 @@
+{
+  "name": "redgold-fullstack",
+  "version": "1.0.0",
+  "description": "Blood Bank Management System",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
